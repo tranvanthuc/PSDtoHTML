@@ -1,0 +1,144 @@
+
+.my-container {
+  padding:0px 10%;
+}
+.header {
+  padding: 20px;
+  
+}
+
+.h-left {
+  width: 20%;
+  float: right;
+}
+#shape1 {
+  margin-right: 70%;
+
+}
+
+#shape2 {
+  margin-right: 40%;
+}
+
+#layer-300 {
+  font-weight: 600;
+  font-size: 30px;
+  color: #5bc3b5;
+  position: absolute;
+  top: 4%;
+}
+
+.fa-search {
+  color: #e3e3e3;
+  font-size: 28px;
+  line-height: 150%;
+  margin-right: 75%;
+}
+
+.nav-bar {
+  background-color: #61cfc0;
+  padding: 10px 0px;
+  
+}
+
+.menu {
+  padding: 10px;
+  width: 100vw;
+}
+
+.item-menu{
+  padding: 0px 13px;
+  border-left: 2px solid white;
+  color: white;
+  line-height: 100%;
+  font-size: 15px;
+  font-weight: 600;
+}
+.item-menu:first-child {
+  border: none;
+}
+
+.slide-show-c1{
+  background-color: #58c1b9;
+  height: 400px;
+}
+
+.c1 {
+  padding: 40px 250px ;
+}
+
+
+.right-slide {
+  margin-left: 30px;
+  color: white;
+  padding: 20px 40px;
+}
+
+
+
+.c2 {
+  padding: 0px 10%;
+}
+
+.content-c2 {
+  flex-grow: 1;
+  border-right: 1px solid #ddd;
+  padding-top: 15px;
+}
+
+.content-c2:last-child {
+  border: none;
+}
+
+.branded {
+  color: #afafaf;
+  font-size: 17px;
+  font-weight: 600;
+  width: 80%;
+  padding-top: 25%;
+}
+
+.btn-shop {
+  color: white;
+  background-color: #61c395;
+}
+
+.feature {
+  background-color: #57bfbb;
+  color: white;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 25px;
+  padding-left: 15%;
+}
+
+.footer {
+  background-color: #4ea89b;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.services{
+  margin-top: 20px;
+  background-color: #5bc3b5;
+  padding: 20px 10px;
+  color: white;
+}
+
+.products {
+  padding: 1% 10%;
+}
+
+.font-color {
+  color: #afafaf;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 200%;
+}
+
+.product {
+  padding: 2%;
+  border-bottom: 5px solid #61c395;
+  margin: 0px 5%;
+}
