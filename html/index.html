@@ -12,13 +12,17 @@
 </head>
 <body>
   <div class="my-container">
-    <div class="header d-flex justify-content-between">
+    <div class="header d-flex flex-row">
       <h1>Aditii</h1>
-      <span class="h-left d-flex justify-content-end">
-        <i class="fa fa-search" aria-hidden="true"></i>
+        <div class="input-group search">
+          <input type="text" class="form-control" placeholder="Search for...">
+          <span class="input-group-btn">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </span>
+        </div>
+        
         <img id="shape2" src="../images/Shape2.png" alt="Shape2.png">
-        <span id="layer-300" >$300</span>
-      </span>
+        <div id="layer-300" >$300</div>
     </div>
   </div>
   <div class="nav-bar ">
