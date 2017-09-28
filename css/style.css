@@ -1,11 +1,22 @@
-
+/* body {
+  font-family: 'Pathway Gothic One', sans-serif;
+} */
 .my-container {
   padding:0px 10%;
+  
+  color: #5bc3b5;
+}
+.my-container h1 {
+  font-family: 'Lobster', cursive;
 }
 .header {
   padding: 20px;
   
 }
+img {
+  margin: 0 auto;
+}
+
 
 .h-left {
   width: 20%;
@@ -25,7 +36,7 @@
   font-size: 30px;
   color: #5bc3b5;
   position: absolute;
-  top: 4%;
+  top: 5%;
 }
 
 .fa-search {
@@ -38,7 +49,7 @@
 .nav-bar {
   background-color: #61cfc0;
   padding: 10px 0px;
-  
+  box-shadow: 0px 1px 5px #968787;
 }
 
 .menu {
@@ -67,17 +78,27 @@
   padding: 40px 250px ;
 }
 
+.btn-c1 {
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  border: 3px solid white;
+  border-radius: 7px;
+}
+
 
 .right-slide {
   margin-left: 30px;
   color: white;
-  padding: 20px 40px;
+  padding: 3% 8%;
 }
+
 
 
 
 .c2 {
   padding: 0px 10%;
+  height: 160px;
 }
 
 .content-c2 {
@@ -127,7 +148,8 @@
 }
 
 .products {
-  padding: 1% 10%;
+  padding: 0% 15%;
+  margin: 5% 0px;
 }
 
 .font-color {
@@ -138,7 +160,18 @@
 }
 
 .product {
-  padding: 2%;
+  padding: 3% 6%;
   border-bottom: 5px solid #61c395;
-  margin: 0px 5%;
+  width: 30%;
+  box-shadow:  0px 0px 5px #ddd;
+}
+
+.product img {
+  height: 130px;
+}
+
+.carousel-indicators > li {
+  border-radius: 50%;
+  max-width: 10px;
+  height: 10px;
 }
