@@ -107,7 +107,7 @@ img {
 
 
 .right-slide {
-  margin-left: 30px;
+  margin-left: 3%;
   color: white;
   padding: 3% 8%;
 }
@@ -191,6 +191,7 @@ img {
 
 .carousel-indicators > li {
   border-radius: 50%;
-  max-width: 10px;
-  height: 10px;
+  margin: 0px 5px;
+  max-width: 15px;
+  height: 15px;
 }
